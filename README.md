@@ -43,3 +43,9 @@ Or without ibazel (won't do live reloading):
 bazel run client:devserver
 ```
 
+If you have modified `~/.bazelrc` for other projects you may need to run the following:
+```
+bazel --nohome_rc run client:devserver
+```
+
+Launch on [localhost:8080/#/](http://localhost:8080/#/)
